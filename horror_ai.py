@@ -10,10 +10,27 @@ import requests
 import urllib.request
 import os
 from bs4 import BeautifulSoup
+from imdb import IMDb # documentation on https://imdbpy.github.io/
+
+
+file_names = []
+urls = ['https://www.imsdb.com/genre/Horror']
+for url in urls:
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    for link in soup.find_all('a'):
+        file_link = link.get('href')
+        print(file_link)
+
+#%%
+import requests
+import urllib.request
+import os
+from bs4 import BeautifulSoup
 
 SCREENPLAYS_URLS = ['https://www.simplyscripts.com/genre/horror-scripts.html']
 FILE_TYPES = ['.pdf', '.txt']
-
+https://www.imsdb.com/genre/Horror
 # Folder with screenplays
 SCREENPLAYS_FOLDER = 'screenplays'
 if not os.path.exists(SCREENPLAYS_FOLDER):
@@ -82,13 +99,15 @@ for file_name in file_names:
                         'year': year
                         })
 
-movies_df = pd.DataFrame(files_data)
-
 # Save dataframe to csv
+movies_df = pd.DataFrame(files_data)
 movies_df.to_csv('screenplays_extra_data.csv') #TODO: Refactor screenplays
 
 #%% [markdown]
-# ### We filter further our new dataset (and do some descriptive stats)
+# ### We filter further our new dataset (and do visualizations)
+# ### We found a significant negative relation between year of publication and rating
+# ### Reasons for it are not clear given the small dataset, it could be that only "bad"
+# ### recent horror movies have their scripts online, unlike older movies.
 #%%
 # Read screenplay files from local folder
 import numpy as np
@@ -99,12 +118,45 @@ import seaborn as sns
 movies_df = pd.read_csv('screenplays_extra_data.csv')
 movies_df = movies_df.dropna() # Drop if any row value is NaN
 #%%
-
+# Ratings
+plt.xlim(1, 10)
+plt.xlabel('Rating')
+plt.ylabel('Freq')
+plt.title('Ratings histogram')
+movies_df['rating'].hist()
 
 #%%
+# Year
+plt.xlabel('Year')
+plt.ylabel('Freq')
+plt.title('Year histogram')
+movies_df['year'].hist()
+#%%
+# Relationship between year and rating (in my small dataset of films with script)
+import scipy.stats
+ax = sns.regplot(x='year', y='rating', data=movies_df)
+scipy.stats.linregress(movies_df['year'], movies_df['rating'])
+
+#%% [markdown]
+# ### A recurrent neural network is trained with the screenplays, to generate a new one
+#%%
+import tensorflow as ts
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+file_names = movies_df['file_name']
 for file_name in file_names:
-    with open(SCREENPLAYS_FOLDER + '//' + file_name, 'rb') as f:
-        print()
+        # Read, then decode for py2 compat.
+    text = open(SCREENPLAYS_FOLDER + '//' + file_name, 'rb').readlines()
+    for line in text:
+        print(line)
+    # length of text is the number of characters in it
+    #print ('Length of text: {} characters'.format(len(text)))
+    #if 'bool(BeautifulSoup(text, "html.parser").find())': #TODO: A REGEX
+        #print(file_name)
+
 
 
 
