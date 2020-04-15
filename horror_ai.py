@@ -8,19 +8,46 @@
 #%%
 import requests
 import urllib.request
+import re
 import os
 from bs4 import BeautifulSoup
 from imdb import IMDb # documentation on https://imdbpy.github.io/
 
 
+SCREENPLAYS_FOLDER = 'screenplays'
+if not os.path.exists(SCREENPLAYS_FOLDER):
+    os.mkdir(SCREENPLAYS_FOLDER)
+
 file_names = []
-urls = ['https://www.imsdb.com/genre/Horror']
+MAIN_URL = 'https://www.imsdb.com'
+urls = ["https://www.imsdb.com/genre/Horror"]
 for url in urls:
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
     for link in soup.find_all('a'):
-        file_link = link.get('href')
-        print(file_link)
+        movie_url = link.get('href')
+
+        if '.html' in movie_url and 'TV' not in movie_url:
+            movie_name = re.search('Movie Scripts/(.*).html', movie_url).group(1)
+            print(movie_name)
+            movie_page = requests.get(MAIN_URL + movie_url)
+            soup_movie = BeautifulSoup(movie_page.content, 'html.parser')
+            for link_movie in soup_movie.find_all('a'):
+                movie_url2 = link_movie.get('href')
+                if movie_url2 is not None and '.html' in movie_url2 and movie_name in movie_url2:
+                    formatted_movie = movie_url2.replace('Movie Scripts', 'scripts').replace(': ','-').replace(' ', '-')
+                    screenplay_page = requests.get(MAIN_URL + formatted_movie)
+                    soup_screenplay = BeautifulSoup(screenplay_page.content, 'html.parser')
+                    for pre in soup_screenplay.find_all('td', {'class': 'scrtext'}):  #('td', {'class': 'scrtext'}):
+                        for pre2 in pre.find_all('pre'):
+                            print(pre2.text)
+
+                    #script_text = re.search('<pre>(.*)</pre>', str(soup_screenplay))
+                    #file_names.append(movie_name)
+                    #with open(SCREENPLAYS_FOLDER + '//' + movie_name +'.txt', 'wb') as f:
+                     #   f.write(script_text)
+
+
 
 #%%
 import requests
@@ -30,7 +57,7 @@ from bs4 import BeautifulSoup
 
 SCREENPLAYS_URLS = ['https://www.simplyscripts.com/genre/horror-scripts.html']
 FILE_TYPES = ['.pdf', '.txt']
-https://www.imsdb.com/genre/Horror
+
 # Folder with screenplays
 SCREENPLAYS_FOLDER = 'screenplays'
 if not os.path.exists(SCREENPLAYS_FOLDER):
