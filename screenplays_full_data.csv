@@ -1,0 +1,167 @@
+,file_name,genre,rating,title,year,has_html,is_txt
+0,thirteen_ghosts.pdf,"['Fantasy', 'Horror']",4.1,Thirteen Erotic Ghosts,2002.0,False,False
+1,sixth-sense.txt,"['Drama', 'Mystery', 'Thriller']",8.1,The Sixth Sense,1999.0,False,True
+2,alien3_fasano.txt,,,,,False,True
+3,alien3_gibson.txt,"['Documentary', 'Comedy', 'News', 'Talk-Show']",,Bob Reid/DITL Gibson Guitar/Stripper/Frank Caliendo/HD,2005.0,False,True
+4,alien3_hill.txt,,,,,False,True
+5,alien3_twohy.txt,,,,,False,True
+6,alien3_red.txt,['Talk-Show'],,Alien 3 Review,2018.0,False,True
+7,ALIEN3unpickett.txt,,,,,True,True
+8,alienresurrection_early.txt,"['Action', 'Horror', 'Sci-Fi']",6.2,Alien: Resurrection,1997.0,False,True
+9,alien_5.txt,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",8.3,Aliens,1986.0,False,True
+10,aliens_vs_predator.txt,"['Action', 'Sci-Fi']",7.1,Aliens vs. Predator,2010.0,False,True
+11,"American%20Werewolf%20In%20London,%20An.txt","['Comedy', 'Horror']",7.5,An American Werewolf in London,1981.0,True,True
+12,american_werewolf_paris.txt,"['Comedy', 'Fantasy', 'Horror', 'Thriller']",5.1,An American Werewolf in Paris,1997.0,False,True
+13,"American%20Werewolf%20In%20Paris,%20An.txt","['Comedy', 'Fantasy', 'Horror', 'Thriller']",5.1,An American Werewolf in Paris,1997.0,True,True
+14,army_of_darkness.txt,"['Comedy', 'Horror']",7.5,Army of Darkness,1992.0,False,True
+15,"Birds,%20The.txt","['Action', 'Adventure', 'Crime']",6.2,Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn,2020.0,True,True
+16,TheBirds.pdf,"['Drama', 'Horror', 'Mystery', 'Romance']",7.7,The Birds,1963.0,False,False
+17,BladeTrinity.txt,"['Action', 'Horror', 'Sci-Fi']",5.9,Blade: Trinity,2004.0,False,True
+18,The-Hills-Have-Eyes.pdf,"['Horror', 'Thriller']",6.4,The Hills Have Eyes,2006.0,True,False
+19,bm2.txt,['Comedy'],,Club M2,2007.0,False,True
+20,Carnivore%20(Unproduced).txt,,,,,True,True
+21,cherryfalls.txt,"['Horror', 'Mystery', 'Thriller']",5.2,Cherry Falls,2000.0,False,True
+22,crow2037.pdf,['Short'],,Moving Images Final Film Scarecrow 2011,2011.0,False,False
+23,cursethe.txt,['Fantasy'],,Cursed,2020.0,False,True
+24,dawnofthedead.txt,"['Action', 'Horror']",7.3,Dawn of the Dead,2004.0,False,True
+25,dayofthedead.txt,"['Horror', 'Thriller']",7.2,Day of the Dead,1985.0,False,True
+26,deeprising.txt,"['Action', 'Adventure', 'Horror', 'Sci-Fi']",6.1,Deep Rising,1998.0,False,True
+27,orig_script.pdf,"['Documentary', 'Short']",,Silent Scream: The Original Script,2009.0,True,False
+28,bc_draft2.pdf,"['Action', 'Crime', 'Drama']",4.8,Backdraft 2,2019.0,True,False
+29,Dd5.pdf,"['Horror', 'Sci-Fi']",3.3,Dead Space,1991.0,True,False
+30,Doom.pdf,"['Action', 'Adventure', 'Fantasy', 'Horror', 'Sci-Fi', 'War']",5.2,Doom,2005.0,False,False
+31,Event%20Horizon.txt,"['Horror', 'Sci-Fi', 'Thriller']",6.7,Event Horizon,1997.0,True,True
+32,evildead_script.txt,,,,,False,True
+33,evildead2script.txt,,,,,False,True
+34,army_of_darkness.txt,"['Comedy', 'Horror']",7.5,Army of Darkness,1992.0,False,True
+35,Fallen.pdf,"['Action', 'Crime', 'Drama', 'Fantasy', 'Mystery', 'Thriller']",7.0,Fallen,1998.0,False,False
+36,Feast%20-%20Early%20Draft.txt,,,,,True,True
+37,Feast%20-%20Revised%20Draft.txt,,,,,True,True
+38,finaldestination.txt,"['Horror', 'Thriller']",6.7,Final Destination,2000.0,False,True
+39,fvj.txt,"['Action', 'Horror']",5.7,Freddy vs. Jason,2003.0,False,True
+40,jvsf_bm.txt,,,,,False,True
+41,FreddyVsJason.pdf,"['Action', 'Horror']",5.7,Freddy vs. Jason,2003.0,False,False
+42,FreddyVsJason_final_draft.pdf,,,,,False,False
+43,FreddysDead-TheFinalNightmare.txt,"['Fantasy', 'Horror']",4.9,Freddy's Dead: The Final Nightmare,1991.0,False,True
+44,Friday1.txt,"['Comedy', 'Drama']",7.3,Friday,1995.0,False,True
+45,friday13th3.txt,"['Horror', 'Mystery', 'Thriller']",6.5,Friday the 13th,1980.0,False,True
+46,friday13th6.txt,"['Horror', 'Mystery', 'Thriller']",6.5,Friday the 13th,1980.0,False,True
+47,friday13thjasongoestohell.txt,"['Fantasy', 'Horror', 'Thriller']",4.3,Jason Goes to Hell: The Final Friday,1993.0,False,True
+48,duskdawn.txt,"['Action', 'Crime', 'Horror']",7.2,From Dusk Till Dawn,1996.0,False,True
+49,go_to_hell.pdf,"['Horror', 'Thriller']",6.5,Drag Me to Hell,2009.0,False,False
+50,gothika.pdf,"['Horror', 'Mystery', 'Thriller']",5.8,Gothika,2003.0,False,False
+51,"GRUDGE,THE-2004.01.26-DOUBLE-BLUE.pdf",,,,,False,False
+52,halloween_script.txt,"['Comedy', 'Family', 'Fantasy']",7.3,The Halloween Scene,2000.0,False,True
+53,halloween4.txt,"['Horror', 'Thriller']",6.6,Halloween,2018.0,False,True
+54,H20.txt,"['Horror', 'Thriller']",5.7,Halloween H20: 20 Years Later,1998.0,False,True
+55,Halloween8_shooting.pdf,,,,,False,False
+56,Hannibal%20-%20Mamet.txt,,,,,True,True
+57,Hannibal%20-%20Zaillian.txt,,,,,True,True
+58,hardware.pdf,"['Sci-Fi', 'Thriller']",6.0,Hardware,1990.0,True,False
+59,hardware.pdf,"['Sci-Fi', 'Thriller']",6.0,Hardware,1990.0,True,False
+60,hw2_ground_zero.pdf,"['Action', 'Drama', 'Mystery', 'Thriller']",6.4,Ground Zero,1987.0,True,False
+61,Hellboy.txt,"['Action', 'Adventure', 'Fantasy', 'Horror', 'Sci-Fi']",5.2,Hellboy,2019.0,True,True
+62,hr3-910701.txt,,,,,False,True
+63,hr4-95----.pdf,"['Short', 'Horror', 'Sci-Fi', 'Thriller']",5.6,Pyotr495,2016.0,False,False
+64,hr6-010221.pdf,,,,,False,False
+65,hr6-001027.pdf,,,,,False,False
+66,DEADER.pdf,"['Comedy', 'Horror']",5.2,Deader Country,2009.0,False,False
+67,hr7-020829.pdf,,,,,False,False
+68,The-Hills-Have-Eyes.pdf,"['Horror', 'Thriller']",6.4,The Hills Have Eyes,2006.0,True,False
+69,TheHitcher.pdf,"['Action', 'Thriller']",7.2,The Hitcher,1986.0,True,False
+70,horror_inc.pdf,"['Drama', 'Horror', 'Thriller']",8.1,American Horror Story,2011.0,False,False
+71,houseOfTheDamned.txt,"['Action', 'Horror', 'Thriller']",4.3,House of the Damned,1996.0,False,True
+72,legend.txt,"['Biography', 'Crime', 'Drama', 'Thriller']",6.9,Legend,2015.0,False,True
+73,IAmLegend.txt,"['Adventure', 'Drama', 'Sci-Fi', 'Thriller']",7.2,I Am Legend,2007.0,True,True
+74,iskwydls.txt,,,,,False,True
+75,Interview_Vampire.pdf,"['Drama', 'Horror']",7.6,Interview with the Vampire: The Vampire Chronicles,1994.0,False,False
+76,interview.txt,"['Comedy', 'Drama', 'Fantasy']",7.0,Intervista,1987.0,False,True
+77,the_island_of_dr_moreau.pdf,"['Horror', 'Sci-Fi', 'Thriller']",4.6,The Island of Dr. Moreau,1996.0,True,False
+78,the_island_of_dr_moreau.pdf,"['Horror', 'Sci-Fi', 'Thriller']",4.6,The Island of Dr. Moreau,1996.0,True,False
+79,friday13thjasongoestohell.txt,"['Fantasy', 'Horror', 'Thriller']",4.3,Jason Goes to Hell: The Final Friday,1993.0,False,True
+80,jvsf_bm.txt,,,,,False,True
+81,jaws_final_draft.txt,"['Short', 'Drama', 'Family', 'News']",,Isa's Final Draft,2010.0,False,True
+82,jaws_late_draft.txt,,,,,False,True
+83,Jaws.txt,"['Adventure', 'Drama', 'Thriller']",8.0,Jaws,1975.0,True,True
+84,jaws2finaldraft.txt,['Music'],,"Style-City Music, H Town, X2, Final Draft, Json, Blind Fury",2011.0,False,True
+85,Jaws%202.txt,"['Adventure', 'Drama', 'Horror', 'Thriller']",5.8,Jaws 2,1978.0,True,True
+86,jaws2_revised_final_draft.txt,,,,,False,True
+87,jaws3_1st_draft.txt,,,,,False,True
+88,jaws_the_revenge.txt,"['Adventure', 'Horror', 'Thriller']",3.0,Jaws: The Revenge,1987.0,False,True
+89,jeepers2.pdf,['Horror'],5.6,Jeepers Creepers 2,2003.0,False,False
+90,land-of-the-dead.pdf,"['Horror', 'Sci-Fi', 'Thriller']",6.2,Land of the Dead,2005.0,True,False
+91,losthighway.txt,"['Mystery', 'Thriller']",7.6,Lost Highway,1997.0,False,True
+92,lostsouls.txt,"['Drama', 'Horror', 'Thriller']",4.8,Lost Souls,2000.0,False,True
+93,jurassic2_thw.txt,"['Short', 'Horror']",,The Growling 2: The New Jurassic,2015.0,False,True
+94,Misery.txt,"['Drama', 'Thriller']",7.8,Misery,1990.0,True,True
+95,WesCravensNewNightmare.txt,['Horror'],,Wes Craven's New Nightmare,2015.0,True,True
+96,nightofthehunter.txt,"['Crime', 'Drama', 'Film-Noir', 'Thriller']",8.0,The Night of the Hunter,1955.0,False,True
+97,nightmare_on_elm_street2.txt,['Horror'],7.5,A Nightmare on Elm Street,1984.0,False,True
+98,nightmare3cravenscript.pdf,,,,,False,False
+99,nightmare_on_elm_street3.txt,['Horror'],7.5,A Nightmare on Elm Street,1984.0,False,True
+100,A-Nightmare-on-Elm-Street-4.txt,['Horror'],7.5,A Nightmare on Elm Street,1984.0,True,True
+101,A-Nightmare-on-Elm-Street-5.txt,['Horror'],7.5,A Nightmare on Elm Street,1984.0,True,True
+102,freddydeadshootingscript.pdf,,,,,False,False
+103,ne6.txt,"['Action', 'Drama']",4.8,The Marine 6: Close Quarters,2018.0,False,True
+104,WesCravensNewNightmare.txt,['Horror'],,Wes Craven's New Nightmare,2015.0,True,True
+105,9thgate.txt,"['Mystery', 'Thriller']",6.7,The Ninth Gate,1999.0,False,True
+106,Omen.pdf,['Horror'],7.5,The Omen,1976.0,False,False
+107,Peeping%20Tom.txt,"['Drama', 'Horror', 'Thriller']",7.7,Peeping Tom,1960.0,True,True
+108,Poltergeist.pdf,"['Horror', 'Thriller']",7.3,Poltergeist,1982.0,False,False
+109,predator.txt,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",5.4,The Predator,2018.0,False,True
+110,"Prophecy,%20The.txt","['Horror', 'Sci-Fi', 'Thriller']",5.5,Prophecy,1979.0,True,True
+111,Psycho.txt,"['Horror', 'Mystery', 'Thriller']",8.5,Psycho,1960.0,True,True
+112,Queen_Damned.pdf,"['Drama', 'Fantasy', 'Horror']",5.3,Queen of the Damned,2002.0,False,False
+113,Rabid%20(1977).txt,"['Horror', 'Sci-Fi']",6.3,Rabid,1977.0,True,True
+114,RingText.txt,['Animation'],,String Text,2016.0,False,True
+115,scream.txt,"['Horror', 'Mystery']",7.2,Scream,1996.0,False,True
+116,scream2.txt,"['Horror', 'Mystery']",6.2,Scream 2,1997.0,False,True
+117,scream3_early_draft.txt,,,,,False,True
+118,Shadow_of_the_Vampire.pdf,"['Drama', 'Horror']",6.9,Shadow of the Vampire,2000.0,False,False
+119,Shivers.txt,"['Horror', 'Sci-Fi']",6.5,Shivers,1975.0,True,True
+120,lambs2nddraft.txt,,,,,False,True
+121,lambsfinal.txt,['News'],,Melissa Lamb's Final Show,2017.0,False,True
+122,"Silence%20Of%20The%20Lambs,%20The.txt","['Crime', 'Drama', 'Thriller']",8.6,The Silence of the Lambs,1991.0,True,True
+123,sixth-sense.txt,"['Drama', 'Mystery', 'Thriller']",8.1,The Sixth Sense,1999.0,False,True
+124,"Sixth%20Sense,%20The.txt","['Drama', 'Mystery', 'Thriller']",8.1,The Sixth Sense,1999.0,True,True
+125,sleepaway3.pdf,['Horror'],6.3,Sleepaway Camp,1983.0,False,False
+126,Suspect%20Zero%20(Unproduced).txt,,,,,True,True
+127,suspect-zero_shooting.pdf,,,Colorado Shooting Suspect James Holmes Appears in Court,,True,False
+128,TheThing.txt,"['Horror', 'Mystery', 'Sci-Fi']",8.1,The Thing,1982.0,False,True
+129,thirteen_ghosts.pdf,"['Fantasy', 'Horror']",4.1,Thirteen Erotic Ghosts,2002.0,False,False
+130,thirteen_ghosts.pdf,"['Fantasy', 'Horror']",4.1,Thirteen Erotic Ghosts,2002.0,False,False
+131,totalrecall_5th_draft.txt,,,,,False,True
+132,Totalre_final_draft.txt,,,,,False,True
+133,twinpeaksfwwm.txt,"['Drama', 'Horror', 'Mystery', 'Thriller']",7.3,Twin Peaks: Fire Walk with Me,1992.0,False,True
+134,waxwork.txt,"['Comedy', 'Horror']",6.2,Waxwork,1988.0,False,True
+135,WesCravensNewNightmare.txt,['Horror'],,Wes Craven's New Nightmare,2015.0,True,True
+136,whatliesbeneath.txt,"['Drama', 'Fantasy', 'Horror', 'Mystery', 'Thriller']",6.6,What Lies Beneath,2000.0,False,True
+137,When%20A%20Stranger%20Calls.txt,"['Horror', 'Mystery', 'Thriller']",6.5,When a Stranger Calls,1979.0,True,True
+138,The_Witches_of_Eastwick.pdf,"['Comedy', 'Fantasy', 'Horror']",6.5,The Witches of Eastwick,1987.0,False,False
+139,whitching_hour.txt,"['Adventure', 'Drama', 'Horror', 'Mystery', 'Thriller']",,Witching Hour,,False,True
+140,Music%20Of%20The%20Heart.txt,"['Drama', 'Music']",6.8,Music of the Heart,1999.0,True,True
+141,8MILE.pdf,"['Drama', 'Music']",7.1,8 Mile,2002.0,False,False
+142,Amadeus.txt,"['Biography', 'Drama', 'History', 'Music']",8.3,Amadeus,1984.0,True,True
+143,bluesbrothers_script.pdf,,,,,False,False
+144,orig_script.pdf,"['Documentary', 'Short']",,Silent Scream: The Original Script,2009.0,True,False
+145,bc_draft2.pdf,"['Action', 'Crime', 'Drama']",4.8,Backdraft 2,2019.0,True,False
+146,Dd5.pdf,"['Horror', 'Sci-Fi']",3.3,Dead Space,1991.0,True,False
+147,"Doors,%20The.txt","['Biography', 'Drama', 'Music']",7.2,The Doors,1991.0,True,True
+148,Music%20Of%20The%20Heart.txt,"['Drama', 'Music']",6.8,Music of the Heart,1999.0,True,True
+149,Untitled_50_Cent_project_by_Terrence_Winter.pdf,,,,,False,False
+150,Hustle&Flow.pdf,"['Crime', 'Drama', 'Music']",7.3,Hustle & Flow,2005.0,False,False
+151,labyrinth_script.pdf,,,,,False,False
+152,"Lion-King,-The.pdf","['Animation', 'Adventure', 'Drama', 'Family', 'Musical']",6.9,The Lion King,2019.0,False,False
+153,meanlife.txt,"['Comedy', 'Musical']",7.6,The Meaning of Life,1983.0,False,True
+154,Music%20Of%20The%20Heart.txt,"['Drama', 'Music']",6.8,Music of the Heart,1999.0,True,True
+155,Newsies.pdf,"['Drama', 'Family', 'History', 'Musical']",7.0,Newsies,1992.0,False,False
+156,"Pianist,%20The.txt","['Biography', 'Drama', 'Music', 'War']",8.5,The Pianist,2002.0,True,True
+157,screen2.pdf,['Comedy'],8.4,Schitt's Creek,2015.0,False,False
+158,screen2.pdf,['Comedy'],8.4,Schitt's Creek,2015.0,False,False
+159,Rock-and-Rule.pdf,"['Animation', 'Fantasy', 'Music', 'Sci-Fi']",6.6,Rock & Rule,1983.0,True,False
+160,rhps.txt,"['Short', 'Music']",,RHP: Already Dead,2008.0,False,True
+161,ShockTreatmentShootingScript.txt,,,,,False,True
+162,sister_act.txt,"['Comedy', 'Crime', 'Family', 'Music']",6.4,Sister Act,1992.0,False,True
+163,Untitled_50_Cent_project_by_Terrence_Winter.pdf,,,,,False,False
+164,walktheline.pdf,"['Biography', 'Drama', 'Music', 'Romance']",7.8,Walk the Line,2005.0,True,False
+165,White%20Christmas.txt,"['Comedy', 'Musical', 'Romance']",7.6,White Christmas,1954.0,True,True
